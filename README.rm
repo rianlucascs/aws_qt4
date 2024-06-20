@@ -1,0 +1,11 @@
+
+
+Control
+    
+    ""
+    Ao iniciar o programa verifica se esta na hora de executar alguma tarefa
+    Controle de execução
+    Executa iniciadores de arquivos .bat""
+
+main.py
+    Control

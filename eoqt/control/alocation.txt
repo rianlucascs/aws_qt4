@@ -1,0 +1,1 @@
+projected: 4x<br />max_loss: R$ 100<br /><br />Ticker: goau4.sa<br />Lot: 200<br />Calc: -72.49<br />Cost: R$ 2173.88<br />Limit cost: R$ 24316.4975<br />Average return based on risk: 10.54<br /><br />Ticker: azul4.sa<br />Lot: 26<br />Calc: -98.24<br />Cost: R$ 556.92<br />Limit cost: R$ 24316.4975<br />Average return based on risk: 14.05

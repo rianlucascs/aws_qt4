@@ -1,0 +1,8 @@
+
+__pycache__/
+venv/
+features.py
+account.py
+.tmp.driveupload
+.tmp.drivedownload
+*.bat
