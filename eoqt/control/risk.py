@@ -8,6 +8,7 @@ from yfinance import download
 from control.straton import StratOn
 from control.utils import read_file, writing_file
 from sys import path
+from control.log import LogQt
 
 class Risk:
     
@@ -76,7 +77,7 @@ class Risk:
 
 
     def protocol1(self):
-        
+        LogQt('Risk create').startup
         projected = 4 # Multiplicador do maior prejuizo
         max_loss = 100 # Limite financeiro
         

@@ -36,7 +36,7 @@ def order_sell(ticker, lot):
 
 def barrs(ativo, _open):
     mt5.initialize()
-    data_hoje_pregao = datetime.today().strftime('%Y-%m-%d') + _open # <--!!! # 10:00:00
+    data_hoje_pregao = datetime.today().strftime('%Y-%m-%d') + f'-{_open}' # <--!!! # -10:00:00
     diff_inicio_pregao = datetime.today() - Timestamp(data_hoje_pregao)
     quantidade_barras = int(diff_inicio_pregao.total_seconds() / (1 * 60))
     barras_frame = DataFrame(mt5.copy_rates_from(ativo, mt5.TIMEFRAME_M1, datetime.today(), quantidade_barras))
