@@ -7,8 +7,6 @@ import MetaTrader5 as mt5
 from time import sleep
 from log import LogQT
 
-mt5.initialize()
-
 class Open(Acess):
 
     def execution(self):
@@ -46,6 +44,7 @@ class Open(Acess):
                 break
 
 if __name__ == '__main__':
+    mt5.initialize()
     LogQT('Open start').startup
     Open().loop()
     LogQT('Open end').startup

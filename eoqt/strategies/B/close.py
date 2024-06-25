@@ -5,8 +5,6 @@ import mt5_operations
 import MetaTrader5 as mt5
 from log import LogQT
 
-mt5.initialize()
-
 class Close(Acess):
 
     key = False
@@ -25,5 +23,7 @@ class Close(Acess):
         return None
 
 if __name__ == '__main__':
-    LogQT('Close').startup
+    mt5.initialize()
+    LogQT('Close start').startup
     Close().loop()
+    LogQT('Close end').startup
