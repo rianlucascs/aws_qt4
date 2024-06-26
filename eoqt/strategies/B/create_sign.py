@@ -17,7 +17,7 @@ class CreateSign(Acess):
         if sign == '0' or sign == '0.0':
             return f'{date}, {day_week(date)}, {sign}, sell'
         elif sign == '1' or sign == '1.0':
-            return f'{date}, {day_week(date)},{sign}, buy'
+            return f'{date}, {day_week(date)}, {sign}, buy'
         
     def writing_file_sign(self):
         LogQT(f'CreateSign create ({self.sign})').startup

@@ -7,3 +7,22 @@
 [ 2024-06-24 10:57:14.852523 ] A\Open start
 [ 2024-06-24 10:57:19.870096 ] A\Open start
 [ 2024-06-24 11:01:07.812979 ] A\Open start
+[ 2024-06-26 10:29:47.707943 ] A\Open start
+[ 2024-06-26 10:29:51.339922 ] A\Open Execution (sell)
+[ 2024-06-26 10:29:51.339922 ] A\Open end
+[ 2024-06-26 10:30:54.709688 ] A\Open start
+[ 2024-06-26 10:30:58.481880 ] A\Open Execution (sell)
+[ 2024-06-26 10:30:58.481880 ] A\Open end
+[ 2024-06-26 10:31:54.938509 ] A\Open start
+[ 2024-06-26 10:31:58.611794 ] A\Open Execution (sell)
+[ 2024-06-26 10:31:58.611794 ] A\Open end
+[ 2024-06-26 10:32:26.054307 ] A\Open start
+[ 2024-06-26 10:32:29.716721 ] A\Open Execution (sell)
+[ 2024-06-26 10:32:29.716721 ] A\Open end
+[ 2024-06-26 10:53:56.877652 ] A\Update start
+[ 2024-06-26 10:53:56.878651 ] A\CreateImages create 1
+[ 2024-06-26 10:54:04.383711 ] A\CreateImages create 2
+[ 2024-06-26 10:54:05.384664 ] A\CreateSign create (2024-06-26, Quarta-feira, 0.0, sell)
+[ 2024-06-26 10:54:05.728118 ] A\DrawDownMin create
+[ 2024-06-26 10:54:06.118718 ] A\AverageReturn create
+[ 2024-06-26 10:54:06.602911 ] A\Update end

@@ -45,6 +45,7 @@ class Open(Acess):
 
 if __name__ == '__main__':
     mt5.initialize()
+    sleep(5)
     LogQT('Open start').startup
     Open().loop()
     LogQT('Open end').startup
