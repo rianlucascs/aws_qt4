@@ -18,7 +18,7 @@ class Close(Acess):
         return True
     
     def loop(self):
-        if not(len(mt5.positions_get(symbol=self._ticker_mt5))):
+        if len(mt5.positions_get(symbol=self._ticker_mt5)) == 1:
             self.execution()
         return None
 
