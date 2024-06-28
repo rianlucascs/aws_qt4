@@ -14,6 +14,6 @@ class LogQT():
     def startup(self):
         content = f'[ {dt()} ] {self._name}\{self.base}\n'
         path = self._path.replace(f'\\strategies\\{self._name}', '')
-        new_path = f'{path}\\logs\\executionHistory.txt'
+        new_path = f'{path}\\logs\\Execution{self._name}_History.txt'
         return writing_file(new_path, content)
     

@@ -46,11 +46,6 @@ def day_week(date):
     return ['Segunda-feira', 'Terça-feira', 'Quarta-feira', 
             'Quinta-feira', 'Sexta-feira', 'Sábado', 'Domingo'][date]
 
-def timed_out(self, time_now):
-    if time_now == str(Timestamp(self.open) + timedelta(minutes=20))[11:]:
-        return True
-    return False
-
 def time():
     return datetime.today().strftime('%H:%M') + ':00'
 
@@ -59,3 +54,8 @@ def get_sign(_path_sign): # < check date sign >
 
 def dt():
     return datetime.today()
+
+def increase(time, minutes):
+    return str(Timestamp(time) + timedelta(minutes=minutes))[11:]
+
+

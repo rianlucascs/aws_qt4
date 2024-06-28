@@ -1,0 +1,12 @@
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.38, result=0.0, message=Sell
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.39, result=-2.0, message=
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.38, result=0.0, message=Sell
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.39, result=-2.0, message=
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.38, result=0.0, message=Sell
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.4, result=-4.0, message=
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.39, result=0.0, message=Sell
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.39, result=0.0, message=
+date=2024-06-26, ticker=AZUL4F, lot=27.0, price=7.39, result=0.0, message=Sell
+date=2024-06-26, ticker=AZUL4F, lot=27.0, price=7.41, result=-0.54, message=
+date=2024-06-26, ticker=GOAU4, lot=200.0, price=10.52, result=0.0, message=Sell
+date=2024-06-26, ticker=AZUL4F, lot=27.0, price=7.33, result=0.0, message=Buy

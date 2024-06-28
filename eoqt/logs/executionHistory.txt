@@ -1,28 +1,50 @@
-[ 2024-06-22 11:20:15.303118 ] Control\Data read
-[ 2024-06-22 11:20:32.658018 ] Control\Data read
-[ 2024-06-24 10:51:12.580640 ] A\Open start
-[ 2024-06-24 10:52:03.924011 ] A\Open start
-[ 2024-06-24 10:55:32.717942 ] A\Open start
-[ 2024-06-24 10:57:09.542825 ] A\Open start
-[ 2024-06-24 10:57:14.852523 ] A\Open start
-[ 2024-06-24 10:57:19.870096 ] A\Open start
-[ 2024-06-24 11:01:07.812979 ] A\Open start
-[ 2024-06-26 10:29:47.707943 ] A\Open start
-[ 2024-06-26 10:29:51.339922 ] A\Open Execution (sell)
-[ 2024-06-26 10:29:51.339922 ] A\Open end
-[ 2024-06-26 10:30:54.709688 ] A\Open start
-[ 2024-06-26 10:30:58.481880 ] A\Open Execution (sell)
-[ 2024-06-26 10:30:58.481880 ] A\Open end
-[ 2024-06-26 10:31:54.938509 ] A\Open start
-[ 2024-06-26 10:31:58.611794 ] A\Open Execution (sell)
-[ 2024-06-26 10:31:58.611794 ] A\Open end
-[ 2024-06-26 10:32:26.054307 ] A\Open start
-[ 2024-06-26 10:32:29.716721 ] A\Open Execution (sell)
-[ 2024-06-26 10:32:29.716721 ] A\Open end
-[ 2024-06-26 10:53:56.877652 ] A\Update start
-[ 2024-06-26 10:53:56.878651 ] A\CreateImages create 1
-[ 2024-06-26 10:54:04.383711 ] A\CreateImages create 2
-[ 2024-06-26 10:54:05.384664 ] A\CreateSign create (2024-06-26, Quarta-feira, 0.0, sell)
-[ 2024-06-26 10:54:05.728118 ] A\DrawDownMin create
-[ 2024-06-26 10:54:06.118718 ] A\AverageReturn create
-[ 2024-06-26 10:54:06.602911 ] A\Update end
+[ 2024-06-28 10:39:17.708895 ] Control\Data read
+[ 2024-06-28 10:39:17.708895 ] Control\Risk create
+[ 2024-06-28 10:40:31.919856 ] Control\Launch update A
+[ 2024-06-28 10:40:31.935900 ] Control\BatchFileManagement remove A
+[ 2024-06-28 10:40:33.943623 ] Control\BatchFileManagement create A
+[ 2024-06-28 10:40:36.459567 ] Control\BatchFileManagement start C:\Users\Administrator\Desktop\aws_qt4\eoqt\strategies\A\update.bat
+[ 2024-06-28 10:40:36.459567 ] Control\Launch update B
+[ 2024-06-28 10:40:36.475256 ] Control\BatchFileManagement remove B
+[ 2024-06-28 10:40:38.537363 ] Control\BatchFileManagement create B
+[ 2024-06-28 10:40:40.693627 ] Control\BatchFileManagement start C:\Users\Administrator\Desktop\aws_qt4\eoqt\strategies\B\update.bat
+[ 2024-06-28 10:40:40.693627 ] Control\StartLoop UPDATE
+[ 2024-06-28 10:40:49.959706 ] A\Update start
+[ 2024-06-28 10:40:49.959706 ] A\CreateImages create 1
+[ 2024-06-28 10:40:55.568691 ] A\CreateImages create 2
+[ 2024-06-28 10:40:57.303069 ] A\CreateSign create (2024-06-28, Sexta-feira, 0.0, sell)
+[ 2024-06-28 10:40:57.943699 ] A\DrawDownMin create
+[ 2024-06-28 10:40:58.787464 ] A\AverageReturn create
+[ 2024-06-28 10:40:59.724962 ] A\Update end
+[ 2024-06-28 10:54:01.649612 ] Control\FileBuilder create (B)
+[ 2024-06-28 10:54:35.712038 ] Control\FileBuilder create (B)\acess.py
+[ 2024-06-28 10:54:36.399592 ] Control\FileBuilder create (B)\after.py
+[ 2024-06-28 10:54:37.134192 ] Control\FileBuilder create (B)\build_info.py
+[ 2024-06-28 10:54:37.812096 ] Control\FileBuilder create (B)\close.py
+[ 2024-06-28 10:54:38.161310 ] Control\FileBuilder create (B)\create_average_return.py
+[ 2024-06-28 10:54:38.493273 ] Control\FileBuilder create (B)\create_drawdown.py
+[ 2024-06-28 10:54:38.837243 ] Control\FileBuilder create (B)\create_images.py
+[ 2024-06-28 10:54:39.214563 ] Control\FileBuilder create (B)\create_sign.py
+[ 2024-06-28 10:54:39.548247 ] Control\FileBuilder create (B)\data.py
+[ 2024-06-28 10:54:41.337308 ] Control\FileBuilder create (B)\log.py
+[ 2024-06-28 10:54:41.715162 ] Control\FileBuilder create (B)\model.py
+[ 2024-06-28 10:54:42.087285 ] Control\FileBuilder create (B)\mt5_operations.py
+[ 2024-06-28 10:54:42.774744 ] Control\FileBuilder create (B)\open.py
+[ 2024-06-28 10:54:43.121381 ] Control\FileBuilder create (B)\pdf_builder.py
+[ 2024-06-28 10:54:44.821559 ] Control\FileBuilder create (B)\update.py
+[ 2024-06-28 10:54:45.165421 ] Control\FileBuilder create (B)\utils.py
+[ 2024-06-28 10:55:31.337135 ] B\Update start
+[ 2024-06-28 10:55:31.337135 ] B\CreateImages create 1
+[ 2024-06-28 10:55:36.634008 ] B\CreateImages create 2
+[ 2024-06-28 10:55:38.024655 ] B\CreateSign create (2024-06-28, Sexta-feira, 0.0, sell)
+[ 2024-06-28 10:55:38.571522 ] B\DrawDownMin create
+[ 2024-06-28 10:55:39.102781 ] B\AverageReturn create
+[ 2024-06-28 10:55:39.727776 ] B\Update end
+[ 2024-06-28 11:02:15.978675 ] Control\Data read
+[ 2024-06-28 11:02:15.978675 ] Control\Launch update A
+[ 2024-06-28 11:02:15.978675 ] Control\BatchFileManagement remove A
+[ 2024-06-28 11:02:17.978782 ] Control\BatchFileManagement create A
+[ 2024-06-28 11:02:21.322415 ] Control\BatchFileManagement start C:\Users\Administrator\Desktop\aws_qt4\eoqt\strategies\A\update.bat
+[ 2024-06-28 11:02:21.322415 ] Control\Launch update B
+[ 2024-06-28 11:02:23.322419 ] Control\BatchFileManagement create B
+[ 2024-06-28 11:02:25.416174 ] Control\BatchFileManagement start C:\Users\Administrator\Desktop\aws_qt4\eoqt\strategies\B\update.bat

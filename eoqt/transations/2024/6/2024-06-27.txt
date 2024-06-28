@@ -1,0 +1,2 @@
+date=2024-06-27, ticker=AZUL4F, lot=27.0, price=7.41, result=2.16, message=
+date=2024-06-27, ticker=GOAU4, lot=200.0, price=10.51, result=2.0, message=

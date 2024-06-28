@@ -12,7 +12,7 @@ class Acess:
         self._data_strat = Data.read(self._path_settings_strat)
 
         adjust_fractal_ticker_off = lambda ticker: ticker.replace('f.sa', '.sa')
-        
+
         # Treino e teste com o ticker do ativo inteiro
         # Se execução no fracionário é alterado apenas o ticker, o sinal vem da série do lote inteiro
         self._ticker = adjust_fractal_ticker_off(self._data_strat[0]) # Train test, results

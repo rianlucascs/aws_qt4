@@ -1,5 +1,6 @@
 from control.market_time import Time
 time = Time.now()
+
 from control.data import Data
 from control.launch import Launch
 from control.log import LogQt
@@ -9,6 +10,8 @@ from control.after_strategies import AfterStrategies
 from control.risk import Risk
 from control.email import Email
 from control.utils import day_week, date_today
+from time import sleep
+
 
 class Activate:
 
@@ -21,10 +24,12 @@ class Activate:
 
     @property
     def protocol(self):
+        
         if not day_week(date_today()) in ['Sábado', 'Domingo']:
+            
             if time == self.update:
-                Launch("update").batch()
                 Risk().protocol1()
+                Launch("update").batch()
                 LogQt('StartLoop UPDATE').startup
 
             if time == Time(self.open).decrement:
@@ -40,5 +45,7 @@ class Activate:
                 TransationLog().save()
                 PDFBuilder().create()
                 AfterStrategies().main()
+                sleep(120)
                 Email().send()
                 LogQt("StartLoop AFTER").startup
+
