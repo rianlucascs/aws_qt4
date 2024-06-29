@@ -13,11 +13,14 @@ class Close(Acess):
         match get_sign(self._path_sign):
             case 'buy':
                 mt5_operations.order_sell(self._ticker_mt5, self._lot)
+                LogQT('Close Execution (buy)').startup
             case 'sell':
                 mt5_operations.order_buy(self._ticker_mt5, self._lot)
+                LogQT('Close Execution (sell)').startup
         return True
     
     def loop(self):
+        LogQT(f'Close positions_get {len(mt5.positions_get(symbol=self._ticker_mt5))}').startup
         if len(mt5.positions_get(symbol=self._ticker_mt5)) == 1:
             self.execution()
         return None
